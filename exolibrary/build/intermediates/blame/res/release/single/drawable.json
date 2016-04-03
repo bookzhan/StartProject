@@ -60,12 +60,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",

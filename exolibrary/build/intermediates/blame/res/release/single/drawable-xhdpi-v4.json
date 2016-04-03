@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_copy_material.png",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/abc_ic_menu_copy_material.png"
-    },
-    {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_copy_material.png",
+        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/abc_ic_menu_copy_material.png"
     },
     {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
@@ -28,12 +28,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/abc_btn_radio_off_mtrl.png"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
@@ -128,12 +128,12 @@
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/exomedia_ic_clear_white.png",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/exomedia_ic_clear_white.png"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_radio_on_mtrl.png",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/abc_btn_radio_on_mtrl.png"
+    },
+    {
+        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/exomedia_ic_clear_white.png",
+        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/exomedia_ic_clear_white.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
@@ -144,12 +144,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_radio_on_mtrl.png",
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-xhdpi/abc_btn_radio_on_mtrl.png"
+    },
+    {
+        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
