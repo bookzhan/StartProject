@@ -16,9 +16,17 @@ public class Constants {
     public static String VERSION;
 
 
+    public final static class VideoPath {
+        public final static String MAIN_VIDEO_KEY = "main_video";
+        public final static String LEFT_VIDEO_KEY = "left_video";
+        public final static String BOTTOM_VIDEO_KEY = "bottom_video";
+        public final static String RIGHT_VIDEO_KEY = "right_video";
+        public final static String TOP_VIDEO_KEY = "top_video";
+    }
+
     public final static class Url {
         public final static String UPDATE = "";
-        public final static String HOME_CAROUSEL="";
+        public final static String HOME_CAROUSEL = "";
     }
 
 
