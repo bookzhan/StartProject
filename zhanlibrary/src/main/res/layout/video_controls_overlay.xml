@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.devbrackets.android.exomedia.widget.FitsSystemWindowRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_control"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/shape_gradient_270_black_bg"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_play_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:src="@drawable/back_white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/exomedia_controls_interactive_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/exomedia_controls_previous_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/exomedia_min_button_height"
+            android:background="@android:color/transparent"
+            android:minHeight="@dimen/exomedia_min_button_height"
+            android:minWidth="@dimen/exomedia_min_button_height"
+            android:src="@drawable/exomedia_ic_skip_previous_white"
+            android:visibility="gone"
+            tools:ignore="ContentDescription,RtlHardcoded"
+            tools:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/exomedia_controls_play_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:minHeight="@dimen/exomedia_min_button_height"
+            android:minWidth="@dimen/exomedia_min_button_height"
+            android:src="@drawable/exomedia_ic_play_arrow_white"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/exomedia_controls_next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/exomedia_min_button_height"
+            android:background="@android:color/transparent"
+            android:minHeight="@dimen/exomedia_min_button_height"
+            android:minWidth="@dimen/exomedia_min_button_height"
+            android:src="@drawable/exomedia_ic_skip_next_white"
+            android:visibility="gone"
+            tools:ignore="ContentDescription,RtlHardcoded"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/exomedia_controls_video_loading"
+            style="@style/ProgressBarBig_black"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="GHS"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_control"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_gradient_90_black_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/exomedia_controls_current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="RtlHardcoded"
+            tools:text="00:00" />
+
+        <SeekBar
+            android:id="@+id/exomedia_controls_video_seek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:progressDrawable="@drawable/seekbar_layer_list"
+            android:thumb="@drawable/shape_seekbar_thumb_corner_stroke_circle"
+            android:thumbOffset="0dp" />
+
+        <TextView
+            android:id="@+id/exomedia_controls_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="99:99" />
+
+        <ImageButton
+            android:id="@+id/ib_switch_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_play_zoomup" />
+    </LinearLayout>
+</com.devbrackets.android.exomedia.widget.FitsSystemWindowRelativeLayout>
