@@ -1,23 +1,15 @@
 [
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_share_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_share_material.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_clear_white.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_clear_white.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_play_arrow_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_black.xml",
@@ -28,128 +20,16 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_paste_material.xml"
     },
     {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_go_search_api_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_copy_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_copy_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_radio_off_mtrl.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_radio_off_mtrl.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_paste_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_paste_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_pause_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_pause_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_previous_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_clear_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_checkbox_unchecked_mtrl.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_checkbox_unchecked_mtrl.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_radio_on_mtrl.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_radio_on_mtrl.xml"
-    },
-    {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_cut_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_fast_forward_black.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_black.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_black.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_clear_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_clear_white.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_black.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_copy_material.xml",
@@ -158,10 +38,6 @@
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_go_search_api_material.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_radio_on_mtrl.xml",
@@ -180,6 +56,14 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_play_arrow_black.xml"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_checkbox_checked_mtrl.xml"
+    },
+    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_btn_radio_off_mtrl.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_radio_off_mtrl.xml"
     },
@@ -188,16 +72,28 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_black.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_selectall_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_selectall_material.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_selectall_material.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_selectall_material.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_white.xml",
@@ -208,16 +104,8 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_btn_checkbox_unchecked_mtrl.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_clear_black.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_black.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-anydpi-v21/abc_ic_menu_share_material.xml",

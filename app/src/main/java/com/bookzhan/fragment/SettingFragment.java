@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bookzhan.video.R;
 import com.zhanlibrary.base.BaseFragment;
 import com.zhanlibrary.base.Constants;
+import com.zhanlibrary.utils.GHSStringUtil;
 import com.zhanlibrary.utils.SpUtils;
 
 /**
@@ -52,6 +53,32 @@ public class SettingFragment extends BaseFragment implements View.OnClickListene
         view.findViewById(R.id.ll_choose_right_video).setOnClickListener(this);
         tv_top_video = (TextView) view.findViewById(R.id.tv_top_video);
         view.findViewById(R.id.ll_choose_top_video).setOnClickListener(this);
+
+        String main_video_path = (String) SpUtils.get(context, Constants.VideoPath.MAIN_VIDEO_KEY, "");
+        String left_video_path = (String) SpUtils.get(context, Constants.VideoPath.LEFT_VIDEO_KEY, "");
+        String bottom_video_path = (String) SpUtils.get(context, Constants.VideoPath.BOTTOM_VIDEO_KEY, "");
+        String right_video_path = (String) SpUtils.get(context, Constants.VideoPath.RIGHT_VIDEO_KEY, "");
+        String top_video_path = (String) SpUtils.get(context, Constants.VideoPath.TOP_VIDEO_KEY, "");
+        if (!GHSStringUtil.isEmpty(main_video_path)) {
+            tv_main_video.setText(main_video_path);
+            tv_main_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(left_video_path)) {
+            tv_left_video.setText(left_video_path);
+            tv_left_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(bottom_video_path)) {
+            tv_bottom_video.setText(bottom_video_path);
+            tv_bottom_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(right_video_path)) {
+            tv_right_video.setText(right_video_path);
+            tv_right_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(top_video_path)) {
+            tv_top_video.setText(top_video_path);
+            tv_top_video.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override

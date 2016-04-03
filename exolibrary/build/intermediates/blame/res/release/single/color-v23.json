@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
     }

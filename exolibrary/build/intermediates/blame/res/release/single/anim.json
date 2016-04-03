@@ -12,16 +12,8 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
@@ -32,14 +24,6 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_enter.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_exit.xml"
     },
@@ -48,35 +32,11 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_bottom.xml"
     }
 ]
