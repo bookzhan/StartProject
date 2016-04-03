@@ -87,5 +87,9 @@
                 android:textSize="18sp" />
 
         </LinearLayout>
+
+        <View
+            style="@style/common_mini_line_style"
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </RelativeLayout>
