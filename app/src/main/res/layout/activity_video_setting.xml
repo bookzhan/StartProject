@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:minHeight="60dp"
+        android:minHeight="@dimen/video_item_height"
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:minHeight="60dp"
+        android:minHeight="@dimen/video_item_height"
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:minHeight="60dp"
+        android:minHeight="@dimen/video_item_height"
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:minHeight="60dp"
+        android:minHeight="@dimen/video_item_height"
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:minHeight="60dp"
+        android:minHeight="@dimen/video_item_height"
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">

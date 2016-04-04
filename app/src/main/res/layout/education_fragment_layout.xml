@@ -4,44 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/ll_choose_video_1"
+    <TextView
+        android:id="@+id/tv_menu_1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/video_item_height"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin">
+        android:paddingLeft="@dimen/activity_horizontal_margin" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <View style="@style/common_mini_line_style" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="选择视频1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ll_choose_video_2"
+    <TextView
+        android:id="@+id/tv_menu_2"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/video_item_height"
         android:clickable="true"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin">
+        android:paddingLeft="@dimen/activity_horizontal_margin" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <View style="@style/common_mini_line_style" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="选择视频1" />
-    </LinearLayout>
 
 </LinearLayout>
