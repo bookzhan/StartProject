@@ -41,7 +41,7 @@
     <style name="common_mini_line_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">0.5dp</item>
-        <item name="android:background">@color/common_mini_line_color</item>
+        <item name="android:background">@color/color_ddd</item>
     </style>
 
     <style name="common_max_line_style">
