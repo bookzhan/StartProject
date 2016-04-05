@@ -223,11 +223,11 @@ public class FileUtils {
     }
 
     /**
-     * @param rawResource raw目录下面的文件
+     * @param rawResource  raw目录下面的文件
      * @return
      * @throws IOException
      */
-    public static String readRawFile(Context context, int rawResource) throws IOException {
+    public static String readRawFile(Context context,int rawResource) throws IOException {
         InputStream in = context.getResources().openRawResource(rawResource);
         int length = in.available();
         byte[] buffer = new byte[length];
@@ -279,21 +279,37 @@ public class FileUtils {
     /**
      * 存储单个Parcelable对象
      *
-     * @param context            程序上下文
-     * @param fileName           文件名，要在系统内保持唯一
-     * @param serializableObject 对象必须实现Serializable
+     * @param context      程序上下文
+     * @param fileName     文件名，要在系统内保持唯一
+     * @param parcelObject 对象必须实现Parcelable
      * @return boolean 存储成功的标志
      */
-    public static <T extends Serializable> boolean writeSerializable(Context context, String fileName, T serializableObject) {
+    @Deprecated
+    public static <T extends Parcelable> boolean writeParcelable(Context context, String fileName, T parcelObject) {
         boolean success = false;
+        FileOutputStream fos = null;
         try {
-            ObjectOutputStream oo = new ObjectOutputStream(context.openFileOutput(fileName, Context.MODE_PRIVATE));
-            oo.writeObject(serializableObject);
-            oo.close();
+            fos = context.openFileOutput(fileName, Context.MODE_PRIVATE);
+            Parcel parcel = Parcel.obtain();
+            parcel.writeParcelable(parcelObject, Parcelable.PARCELABLE_WRITE_RETURN_VALUE);
+            byte[] data = parcel.marshall();
+            fos.write(data);
+
             success = true;
-        } catch (Exception e) {
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fos != null) {
+                try {
+                    fos.close();
+                } catch (IOException ioe) {
+                    ioe.printStackTrace();
+                }
+            }
         }
+
         return success;
     }
 
@@ -344,14 +360,46 @@ public class FileUtils {
      * @param fileName 文件名
      * @return 读取到的Parcelable对象，失败返回null
      */
-    public static <T extends Serializable> T readSerializable(Context context, String fileName, Class<T> targetClass) {
+    @Deprecated
+    public static <T extends Parcelable> T readParcelable(Context context, String fileName, Class<T> classOfT) {
         T parcelObject = null;
+        FileInputStream fis = null;
+        ByteArrayOutputStream bos = null;
         try {
-            ObjectInputStream ois = new ObjectInputStream(context.openFileInput(fileName));
-            parcelObject = (T) ois.readObject();
-        } catch (Exception e) {
+            fis = context.openFileInput(fileName);
+            if (fis != null) {
+                bos = new ByteArrayOutputStream();
+                byte[] b = new byte[4096];
+                int bytesRead;
+                while ((bytesRead = fis.read(b)) != -1) {
+                    bos.write(b, 0, bytesRead);
+                }
+
+                byte[] data = bos.toByteArray();
+
+                Parcel parcel = Parcel.obtain();
+                parcel.unmarshall(data, 0, data.length);
+                parcel.setDataPosition(0);
+                parcelObject = parcel.readParcelable(classOfT.getClassLoader());
+            }
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+            parcelObject = null;
+        } finally {
+            if (fis != null) try {
+                fis.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (bos != null) try {
+                bos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+
         return parcelObject;
     }
 
@@ -368,7 +416,6 @@ public class FileUtils {
         List<T> results = null;
         FileInputStream fis = null;
         ByteArrayOutputStream bos = null;
-        Parcel parcel = Parcel.obtain();
         try {
             fis = context.openFileInput(fileName);
             if (fis != null) {
@@ -380,6 +427,8 @@ public class FileUtils {
                 }
 
                 byte[] data = bos.toByteArray();
+
+                Parcel parcel = Parcel.obtain();
                 parcel.unmarshall(data, 0, data.length);
                 parcel.setDataPosition(0);
                 results = parcel.readArrayList(classOfT.getClassLoader());
@@ -390,7 +439,6 @@ public class FileUtils {
             e.printStackTrace();
             results = null;
         } finally {
-            parcel.recycle();
             if (fis != null) try {
                 fis.close();
             } catch (IOException e) {
@@ -506,6 +554,26 @@ public class FileUtils {
         return success;
     }
 
+    public static Serializable readSerialLizable(Context context, String fileName) {
+        Serializable data = null;
+        ObjectInputStream ois = null;
+        try {
+            ois = new ObjectInputStream(context.openFileInput(fileName));
+            data = (Serializable) ois.readObject();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (ois != null) {
+                try {
+                    ois.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return data;
+    }
 
     /**
      * 从assets里边读取字符串
