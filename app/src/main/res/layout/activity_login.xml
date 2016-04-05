@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         app:titleText="登录" />
 
+    <View style="@style/common_mini_line_style" />
 
     <LinearLayout
         android:id="@+id/login_no_user_layout"
