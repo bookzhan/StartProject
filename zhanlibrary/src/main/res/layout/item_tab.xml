@@ -1,32 +1,44 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/tabsLayout"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@color/white"
     android:orientation="horizontal">
-
-    <TextView
-        android:id="@+id/tab_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/selector_tab_title_color"
-        android:textSize="18sp" />
+=======
+    android:paddingTop="8dp"
+    android:layout_height="match_parent">
+>>>>>>> parent of 9cd9c5c... 登陆界面调整完成
 
     <ImageView
         android:id="@+id/tab_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone" />
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/selector_tab_title_color"
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/badge_view"
         android:layout_width="15dp"
         android:layout_height="15dp"
+        android:layout_alignRight="@id/tab_icon"
+        android:layout_alignTop="@id/tab_icon"
         android:background="@drawable/shape_red_badge_background"
         android:gravity="center"
         android:textColor="@color/common_light_red_color"
         android:textSize="8sp"
         tools:text="25" />
-</LinearLayout>
+
+</RelativeLayout>

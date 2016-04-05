@@ -64,12 +64,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/abc_btn_radio_on_mtrl.png"
     },
     {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/exomedia_ic_clear_black.png",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/exomedia_ic_clear_black.png"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/exomedia_ic_pause_black.png",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/exomedia_ic_pause_black.png"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/exomedia_ic_clear_black.png",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/exomedia_ic_clear_black.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_ic_menu_share_material.png",
@@ -116,12 +116,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/exomedia_ic_rewind_white.png"
     },
     {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_off_mtrl.png",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/abc_btn_radio_off_mtrl.png"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/exomedia_ic_skip_previous_black.png",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/exomedia_ic_skip_previous_black.png"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_off_mtrl.png",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxxhdpi/abc_btn_radio_off_mtrl.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/exomedia_ic_play_arrow_white.png",

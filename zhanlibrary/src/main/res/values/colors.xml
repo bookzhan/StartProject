@@ -40,8 +40,6 @@
     <color name="bar_title_text_color">#7d7d7d</color>
     <color name="gray_ahua">#878787</color>
     <color name="line_gray">#bebebe</color>
-    <color name="color_ddd">#dddddd</color>
-    <color name="color_eee">#eeeeee</color>
 
     <color name="vertical_line_grey">#c9caca</color>
     <color name="divider_grey">#eeeeee</color>
@@ -109,13 +107,10 @@
     <color name="default_image_bg">#999999</color>
 
 
-    <color name="video_text_color">#7a7a7a</color>
-    <color name="video_org_color">#fa8850</color>
-    <color name="video_org_color_press">#f96921</color>
-
-
+    <!-- 表情页-->
     <color name="face_background">#ededed</color>
 
+    <!--//guoyi-->
     <color name="bg">#ECECEC</color>
     <color name="real_red">#df3434</color>
     <color name="real_orange">#ea402f</color>

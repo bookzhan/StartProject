@@ -4,12 +4,12 @@
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxhdpi/exomedia_ic_skip_previous_white.png"
     },
     {
-        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxhdpi-v4/exomedia_ic_clear_white.png",
-        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxhdpi/exomedia_ic_clear_white.png"
-    },
-    {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_menu_share_material.png",
         "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxhdpi/abc_ic_menu_share_material.png"
+    },
+    {
+        "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxhdpi-v4/exomedia_ic_clear_white.png",
+        "source": "/Users/luoye/Git/Github/Video/exolibrary/build/generated/res/pngs/release/drawable-xxhdpi/exomedia_ic_clear_white.png"
     },
     {
         "merged": "/Users/luoye/Git/Github/Video/exolibrary/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
