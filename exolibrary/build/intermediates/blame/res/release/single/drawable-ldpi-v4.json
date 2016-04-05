@@ -48,12 +48,12 @@
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-ldpi/abc_ic_menu_cut_material.png"
     },
     {
-        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-ldpi-v4/exomedia_ic_clear_black.png",
-        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-ldpi/exomedia_ic_clear_black.png"
-    },
-    {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-ldpi-v4/abc_ic_menu_share_material.png",
         "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-ldpi/abc_ic_menu_share_material.png"
+    },
+    {
+        "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-ldpi-v4/exomedia_ic_clear_black.png",
+        "source": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/generated/res/pngs/release/drawable-ldpi/exomedia_ic_clear_black.png"
     },
     {
         "merged": "/Users/luoye/AndroidStudioProjects/app_android/GHS/exolibrary/build/intermediates/res/merged/release/drawable-ldpi-v4/exomedia_ic_play_arrow_white.png",
