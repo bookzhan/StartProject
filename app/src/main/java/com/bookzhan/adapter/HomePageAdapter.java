@@ -13,7 +13,7 @@ import com.zhanlibrary.base.BaseFragment;
  * 说明:
  */
 public class HomePageAdapter extends FragmentPagerAdapter {
-    private String[] title = {"教程", "设置"};
+    private String[] title = {"教学", "设置"};
 
     public HomePageAdapter(FragmentManager fm) {
         super(fm);

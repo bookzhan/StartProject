@@ -6,16 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bookzhan.model.VideoFileModel;
 import com.bookzhan.video.R;
-import com.google.gson.Gson;
 import com.zhanlibrary.base.BaseActivity;
 import com.zhanlibrary.base.Constants;
-import com.zhanlibrary.utils.FileUtils;
 import com.zhanlibrary.utils.GHSStringUtil;
 import com.zhanlibrary.utils.SpUtils;
-
-import java.io.File;
 
 /**
  * Created by zhandalin on 2016-04-04 22:23.
@@ -35,14 +30,11 @@ public class SettingVideoActivity extends BaseActivity implements View.OnClickLi
     private TextView tv_bottom_video;
     private TextView tv_right_video;
     private TextView tv_top_video;
-    private int index;
-    private VideoFileModel videoFileData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_video_setting);
-        index = getIntent().getIntExtra("index", 0);
+        setContentView(R.layout.video_setting_activity);
         initView();
     }
 
@@ -58,42 +50,31 @@ public class SettingVideoActivity extends BaseActivity implements View.OnClickLi
         tv_top_video = (TextView) findViewById(R.id.tv_top_video);
         findViewById(R.id.ll_choose_top_video).setOnClickListener(this);
 
-        File file = new File(context.getFilesDir() + "/video_" + index + ".json");
-        if (file.exists()) {
-            try {
-                String readFile = FileUtils.readFile(file.getAbsolutePath());
-                videoFileData = new Gson().fromJson(readFile, VideoFileModel.class);
-
-                String main_video_path = videoFileData.getFrontVideoPath();
-                String left_video_path = videoFileData.getLeftVideoPath();
-                String bottom_video_path = videoFileData.getBottomVideoPath();
-                String right_video_path = videoFileData.getRightVideoPath();
-                String top_video_path = videoFileData.getTopVideoPath();
-                if (!GHSStringUtil.isEmpty(main_video_path)) {
-                    tv_main_video.setText(main_video_path);
-                    tv_main_video.setVisibility(View.VISIBLE);
-                }
-                if (!GHSStringUtil.isEmpty(left_video_path)) {
-                    tv_left_video.setText(left_video_path);
-                    tv_left_video.setVisibility(View.VISIBLE);
-                }
-                if (!GHSStringUtil.isEmpty(bottom_video_path)) {
-                    tv_bottom_video.setText(bottom_video_path);
-                    tv_bottom_video.setVisibility(View.VISIBLE);
-                }
-                if (!GHSStringUtil.isEmpty(right_video_path)) {
-                    tv_right_video.setText(right_video_path);
-                    tv_right_video.setVisibility(View.VISIBLE);
-                }
-                if (!GHSStringUtil.isEmpty(top_video_path)) {
-                    tv_top_video.setText(top_video_path);
-                    tv_top_video.setVisibility(View.VISIBLE);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+        String main_video_path = (String) SpUtils.get(context, Constants.VideoPath.MAIN_VIDEO_KEY, "");
+        String left_video_path = (String) SpUtils.get(context, Constants.VideoPath.LEFT_VIDEO_KEY, "");
+        String bottom_video_path = (String) SpUtils.get(context, Constants.VideoPath.BOTTOM_VIDEO_KEY, "");
+        String right_video_path = (String) SpUtils.get(context, Constants.VideoPath.RIGHT_VIDEO_KEY, "");
+        String top_video_path = (String) SpUtils.get(context, Constants.VideoPath.TOP_VIDEO_KEY, "");
+        if (!GHSStringUtil.isEmpty(main_video_path)) {
+            tv_main_video.setText(main_video_path);
+            tv_main_video.setVisibility(View.VISIBLE);
         }
-
+        if (!GHSStringUtil.isEmpty(left_video_path)) {
+            tv_left_video.setText(left_video_path);
+            tv_left_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(bottom_video_path)) {
+            tv_bottom_video.setText(bottom_video_path);
+            tv_bottom_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(right_video_path)) {
+            tv_right_video.setText(right_video_path);
+            tv_right_video.setVisibility(View.VISIBLE);
+        }
+        if (!GHSStringUtil.isEmpty(top_video_path)) {
+            tv_top_video.setText(top_video_path);
+            tv_top_video.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
@@ -135,46 +116,29 @@ public class SettingVideoActivity extends BaseActivity implements View.OnClickLi
                     tv_main_video.setText(uri);
                     tv_main_video.setVisibility(View.VISIBLE);
                     SpUtils.put(context, Constants.VideoPath.MAIN_VIDEO_KEY, uri);
-                    videoFileData.setFrontVideoPath(uri);
                     break;
                 case LEFT_VIDEO_RESULT_CODE:
                     tv_left_video.setText(uri);
                     tv_left_video.setVisibility(View.VISIBLE);
                     SpUtils.put(context, Constants.VideoPath.LEFT_VIDEO_KEY, uri);
-                    videoFileData.setLeftVideoPath(uri);
                     break;
                 case BOTTOM_VIDEO_RESULT_CODE:
                     tv_bottom_video.setText(uri);
                     tv_bottom_video.setVisibility(View.VISIBLE);
                     SpUtils.put(context, Constants.VideoPath.BOTTOM_VIDEO_KEY, uri);
-                    videoFileData.setBottomVideoPath(uri);
                     break;
                 case RIGHT_VIDEO_RESULT_CODE:
                     SpUtils.put(context, Constants.VideoPath.RIGHT_VIDEO_KEY, uri);
                     tv_right_video.setVisibility(View.VISIBLE);
                     tv_right_video.setText(uri);
-                    videoFileData.setRightVideoPath(uri);
                     break;
                 case TOP_VIDEO_RESULT_CODE:
                     SpUtils.put(context, Constants.VideoPath.TOP_VIDEO_KEY, uri);
                     tv_top_video.setVisibility(View.VISIBLE);
                     tv_top_video.setText(uri);
-                    videoFileData.setTopVideoPath(uri);
                     break;
             }
         }
 
-    }
-
-
-    @Override
-    protected void onDestroy() {
-        try {
-            String toJson = new Gson().toJson(videoFileData);
-            FileUtils.writeFile(context, "video_" + index + ".json", toJson);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        super.onDestroy();
     }
 }

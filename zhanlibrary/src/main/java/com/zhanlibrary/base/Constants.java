@@ -16,11 +16,6 @@ public class Constants {
     public static String VERSION;
 
 
-    public final static class Setting {
-        public final static String MENU_NAME_1_KEY = "menu_name_1";
-        public final static String MENU_NAME_2_KEY = "menu_name_2";
-    }
-
     public final static class VideoPath {
         public final static String MAIN_VIDEO_KEY = "main_video";
         public final static String LEFT_VIDEO_KEY = "left_video";

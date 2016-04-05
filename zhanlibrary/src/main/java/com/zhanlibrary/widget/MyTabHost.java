@@ -42,7 +42,7 @@ public class MyTabHost extends LinearLayout {
 
     public void initializeTabs(Context context) {
         setGravity(Gravity.CENTER_VERTICAL);
-        LayoutParams layoutParams = new LayoutParams(0, ViewGroup.LayoutParams.MATCH_PARENT);
+        LayoutParams layoutParams = new LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT);
         layoutParams.weight = 1;
         for (int i = 0; i < tabIcons.length; i++) {
             View tabView = createTabView(context, i);
