@@ -22,7 +22,7 @@ import com.zhanlibrary.utils.DensityUtil;
 public class MyTabHost extends LinearLayout {
     private final int[] tabIcons = {R.drawable.selector_toolbar_home,
             R.drawable.selector_toolbar_personal};
-    private final String[] tabTitles = new String[]{"教程", "设置"};
+    private final String[] tabTitles = new String[]{"教学", "设置"};
     private OnTabChangedListener onTabChangedListener;
     private View currentSelectView;
     private ViewPager mViewPager;

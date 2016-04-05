@@ -40,7 +40,6 @@ public class Constants {
         public final static String USER_LEVEL_KEY = "user_level";
         public final static String USER_BIRTHDAY_KEY = "user_birthday";
         public final static String USER_IMG_NAME_KEY = "user_img_name";
-        public final static String USER_LOGIN_FLAG_KEY = "user_login_flag";
     }
 
 
